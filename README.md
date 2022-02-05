@@ -4,6 +4,14 @@
 Cup of Java
 
 ##Team Member's Information
+
+|First Name|Last Name|York Email|Lecture Section|Lab Section|
+|----------|---------|----------|---------------|-----------|
+|Affan|Gazi|ag02@my.yorku.ca|N|02|
+|Sahajdeep|Singh|ssingh03@my.yorku.ca|N|02|
+|Oshiya|Brahmbhat|os0404@my.yorku.ca|N|02|
+|Sourish|Dayalan|sourish6@my.yorku.ca|P|03|
+
 First name: Affan Last name: Gazi
 York Email: affangazi0@gmail.com(eclass), ag02@my.yorku.ca
 Lecture Section: N
@@ -33,18 +41,6 @@ Test{Memory}
 The core of the app is a guessing game.
 Our main mode will start off with nxn squares. A select amount of squares will be highlighted for 1-5 seconds then turned back into the default colour, default as in the colour of the other squares, the user can’t tap the squares then. After the computer is done randomly selecting the squares, the user can tap and must select the selected squares, if the user selects the wrong square then the user loses. The squares are randomized each time and have a (optional) timed option.
 There will be a leaderboard for each mode, one for now, that records the user’s top 3 personal scores (if we are able to).
-
-
-
-
-
-
-
-
-
-
-
-
 
 ##Functional Requirements:
 ###General App Requirements:
