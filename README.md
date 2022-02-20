@@ -20,24 +20,27 @@ There will be a leaderboard for each mode, one for now, that records the user’
 
 ## Functional Requirements:
 ### General App Requirements:
-- The main screen will have the title at the top and modes just below it with a button where it’ll go to a leaderboard screen
-- Have a navigation bar that has all of the modes plus a quit button somewhere at the end that adds another option to exit the app
-- Instruction manual for each mode will be available on the main screen
+- The main screen will have the title at the top and a start button at the bottom just below it with a button where it’ll go to a leaderboard screen
+- The main screen will also have our group name at the top and the instructions of the game
+- A quit button at the end of an attempt that goes back to the main screen 
 - Background DMCA free music will play once the user enters into the app and loads and switches to the dedicated music for each of the modes and have a mute button somewhere on the screen
-- There is a 0.5-2 sec transition from the main screen the to any of the modes
-### Mode 1 Requirements:
-- It will start off at a 2x2 grid which then added one row and one column after getting an attempt correct (after nxn grid it’ll be an n+1Xn+1 grid) With a max 8 x 8  grid
-- Each time the attempt is correct, the level number will add + 1
-- The amount of squares that can show up will be randomized between n to n + n/2 (rounded down if n is odd / n%2==1) where n is the number of squares on one row/column of the matrix ok
-- Constrained to the middle of the screen no matter if the device is in landscape or portrait mode
-- The randomized blocks will appear for 1-5 seconds depending on the level (5 seconds for easy and 1 second for hard)... (*easter egg*)(and maybe 0.1 for extreme)
-- The user can tap the squares in any order and if the user gets one block wrong it gives a wrong screen and the user has to start over
-- If we can do it we can add a timed option to prevent screenshotting the game and then doing it
-- There can be a timer that goes down in the bottom of the screen
-- The grid’s squares adjust, get smaller, to accommodate itself in the screen
+### Main Mode Requirements:
+- It will be fixed as a 5x5 grid, but later we can add/change it to a mode where:
+ It will start off at a 2x2 grid which then added one row and one column after getting an attempt correct (after nxn grid it’ll be an n+1Xn+1 grid) With a max 8 x 8  grid The amount of squares that can show up will be randomized between n to 2n where n is the number of squares on one row/column of the matrix if we do the other mode
+- Otherwise the 5x5 square will start off with (randomized) 1 square to a max 20 squares depending on the level.
+- Grid is constrained to the middle of the screen no matter if the device is in landscape or portrait mode
+- The randomized blocks will appear for 1-5 seconds (5 seconds for first 5 levels and then every 5 levels -1 second up to a minimum of 1 second)
+- The user can tap the squares in any order and if the user gets one block wrong the user either loses one heart or, if there are no hearts left, then user gets taken to the result screen and the user can either start over or exit to the main page, progress will be checked and recorded if beaten the previous high score
+- If we can do it we can add a timed option to prevent screenshotting the game and then doing it (or add a feature that blocks screenshots when the game is ongoing)
+- There can be a timer that goes down in the bottom of the screen (which can lap for every level and records it for the user to see)
+- Each time the attempt is correct, the level number will add + 1 and + 1 block is there to memorize (for 5x5 grid)
+- (For the increasing grid) The grid’s squares adjust, get smaller, to accommodate itself in the screen (otherwise the 5x5 grid will stay fixed)
 ### Leaderboard requirements:
+- Shows after the user ran out of lives or reaches maximum level (for 5x5 grid)
 - The top of the screen will say “Your High Scores”
 - It’ll record the highest top 3 levels and date attempted like “Level 15             Feb 02 2022”
-- This can be pulled from the the device’s date
-*can adjust and drop off some harder functional requirements or simplify it later on*
+- This can be pulled from the the device’s date from using java’s utilities class
+- The bottom of the screen will have the current attempt’s record
+- There will also be a replay button that goes to the game screen and a quit button that goes to the main screen
+- *can adjust and drop off some harder functional requirements or simplify it later on*
 
