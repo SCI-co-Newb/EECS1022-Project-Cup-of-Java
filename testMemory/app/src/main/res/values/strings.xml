@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">test(Memory)</string>
+    <string name="affan_gazi_n_sahajdeep_singh_n_oshiya_brahambhatt_n_sourish_dayalan">affan gazi,\nsahajdeep singh,\noshiya brahambhatt,\nsourish dayalan</string>
+    <string name="test_5x5">test{5x5}</string>
+    <string name="R1C1unknownsquare" />
+    <string name="R1C2unknownsquare" />
+    <string name="R1C3unknownsquare" />
+    <string name="R1C4unknownsquare" />
+    <string name="R1C5unknownsquare" />
+    <string name="R2C1unknownsquare" />
+    <string name="R2C2unknownsquare" />
+    <string name="R2C3unknownsquare" />
+    <string name="R2C4unknownsquare" />
+    <string name="R2C5unknownsquare" />
+    <string name="R3C1unknownsquare" />
+    <string name="R3C2unknownsquare" />
+    <string name="R3C3unknownsquare" />
+    <string name="R3C4unknownsquare" />
+    <string name="R3C5unknownsquare" />
+    <string name="R4C1unknownsquare" />
+    <string name="R4C2unknownsquare" />
+    <string name="R4C3unknownsquare" />
+    <string name="R4C4unknownsquare" />
+    <string name="R4C5unknownsquare" />
+    <string name="R5C1unknownsquare" />
+    <string name="R5C2unknownsquare" />
+    <string name="R5C3unknownsquare" />
+    <string name="R5C4unknownsquare" />
+    <string name="R5C5unknownsquare" />
+
+
+
+
+</resources>
