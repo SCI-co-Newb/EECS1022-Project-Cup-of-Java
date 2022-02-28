@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="@string/test_5x5"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/fivebyfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#000000"
+        android:longClickable="false"
+        app:backgrountTint="#000000"
+        app:columnCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        app:rowCount="5">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ButtonR1C1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R1C1unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                app:layout_column="0"
+                app:layout_row="0"
+                tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR1C2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R1C2unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR1C3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R1C3unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR1C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R1C4unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR1C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R1C5unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ButtonR2C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R2C1unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR2C2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R2C2unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR2C3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R2C3unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR2C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R2C4unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR2C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R2C5unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ButtonR3C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R3C1unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR3C2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R3C2unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR3C3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R3C3unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR3C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R3C4unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR3C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R3C5unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ButtonR4C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R4C1unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR4C2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R4C2unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR4C3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R4C3unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR4C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R4C4unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR4C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R4C5unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ButtonR5C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R5C1unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR5C2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R5C2unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR5C3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R5C3unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR5C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R5C4unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR5C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R5C5unknownsquare"
+                android:minWidth="75dp"
+                android:minHeight="75dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/LEVEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:fontFamily="casual"
+        android:text="LEVEL:"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/LEVELNUM"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fivebyfive"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:id="@+id/LEVELNUM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="128dp"
+        android:fontFamily="casual"
+        android:text="1/20"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/LEVEL"
+        app:layout_constraintTop_toBottomOf="@+id/fivebyfive"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <Button
+        android:id="@+id/fivebyfiveinfo"
+        android:layout_width="206dp"
+        android:layout_height="67dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="casual"
+        android:text="HOW TO PLAY"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:iconTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LEVEL" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
