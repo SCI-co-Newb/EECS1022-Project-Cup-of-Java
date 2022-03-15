@@ -28,6 +28,7 @@
     <string name="R5C4unknownsquare" />
     <string name="R5C5unknownsquare" />
     <string name="go_back">go back</string>
+    <string name="how_to_play_nin_this_easy_game_a_square_will_flash_for_a_moment_and_you_have_to_tap_on_the_correct_square_nthe_number_of_squares_will_increase_per_level_nyou_only_get_1_chance_ngood_luck">How To Play\nIn this easy game, a square will flash for a moment and you have to tap on the correct square!\nThe number of squares will increase per level!\nYou only get 1 Chance\nGood luck!</string>
 
 
 </resources>

@@ -49,7 +49,6 @@
         android:id="@+id/START"
         android:layout_width="161dp"
         android:layout_height="105dp"
-        android:layout_marginTop="100dp"
         android:backgroundTint="#000000"
         android:fontFamily="casual"
         android:onClick="changeScreen"
@@ -58,7 +57,21 @@
         app:iconTint="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="337dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="casual"
+        android:text="@string/how_to_play_nin_this_easy_game_a_square_will_flash_for_a_moment_and_you_have_to_tap_on_the_correct_square_nthe_number_of_squares_will_increase_per_level_nyou_only_get_1_chance_ngood_luck"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Name1"
         app:layout_constraintVertical_bias="0.0" />

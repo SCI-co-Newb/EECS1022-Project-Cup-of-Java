@@ -399,7 +399,7 @@
         android:layout_height="67dp"
         android:backgroundTint="#000000"
         android:fontFamily="casual"
-        android:text="HOW TO PLAY"
+        android:text="High Scores"
         android:textAlignment="center"
         android:textSize="20sp"
         app:iconTint="#00000000"
