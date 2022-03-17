@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#cad4d1">
 
 
     <TextView
@@ -25,10 +26,11 @@
         android:id="@+id/fivebyfive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_margin="5dp"
         android:background="#000000"
         android:longClickable="false"
-        app:backgrountTint="#000000"
         app:columnCount="5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,8 +52,6 @@
                 android:minWidth="75dp"
                 android:minHeight="75dp"
                 app:backgroundTint="#cad4d1"
-                app:layout_column="0"
-                app:layout_row="0"
                 tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
             <Button
@@ -292,7 +292,9 @@
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/ButtonR5C1"
@@ -380,7 +382,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="128dp"
         android:fontFamily="casual"
-        android:text="1/20"
+        android:text="1/25"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="34sp"
@@ -397,13 +399,30 @@
         android:layout_height="67dp"
         android:backgroundTint="#000000"
         android:fontFamily="casual"
-        android:text="HOW TO PLAY"
+        android:text="High Scores"
         android:textAlignment="center"
         android:textSize="20sp"
         app:iconTint="#00000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LEVEL" />
+        app:layout_constraintTop_toBottomOf="@+id/LEVEL"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <Button
+        android:id="@+id/gobacktomenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:fontFamily="casual"
+        android:onClick="goHome"
+        android:text="@string/go_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fivebyfiveinfo"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fivebyfive"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
