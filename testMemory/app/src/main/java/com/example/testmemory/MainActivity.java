@@ -125,6 +125,9 @@ public class MainActivity extends AppCompatActivity {
     public void changeScreen(View view) { //changes start button on main screen to five by five grid
         setContentView(R.layout.fivebyfive);
         IncreaseLevel();
+        if (level == 26) {
+            setContentView(R.layout.nicescreen);
+        }
         while (selectList.size() != level) {
             selectList.add(selectSquare(arrayOfButtons()));
         }
@@ -136,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         }
+
     }
 
 
