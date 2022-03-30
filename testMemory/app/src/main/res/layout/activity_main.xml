@@ -23,12 +23,13 @@
         android:id="@+id/who"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
         android:fontFamily="casual"
         android:text="a game made by:"
         android:textColor="#000000"
         android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Title" />
 
@@ -45,34 +46,77 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/who" />
 
-    <Button
-        android:id="@+id/START"
-        android:layout_width="161dp"
-        android:layout_height="105dp"
-        android:backgroundTint="#000000"
-        android:fontFamily="casual"
-        android:onClick="changeScreen"
-        android:text="START!"
-        android:textSize="34sp"
-        app:iconTint="#FF0000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/info"
-        app:layout_constraintVertical_bias="0.427" />
-
     <TextView
         android:id="@+id/info"
-        android:layout_width="337dp"
-        android:layout_height="264dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="383dp"
+        android:layout_height="249dp"
         android:fontFamily="casual"
         android:text="@string/how_to_play_nin_this_easy_game_a_square_will_flash_for_a_moment_and_you_have_to_tap_on_the_correct_square_nthe_number_of_squares_will_increase_per_level_nyou_only_get_1_chance_ngood_luck"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Name1"
+        app:layout_constraintTop_toBottomOf="@+id/Name1" />
+
+
+    <Button
+        android:id="@+id/fourscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:onClick="fourSquared"
+        android:text="😃"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/fivescreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:onClick="fiveSquared"
+        android:text="😲"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/fourscreen"
+        app:layout_constraintTop_toBottomOf="@+id/info"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <Button
+        android:id="@+id/sixscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F4FB00"
+        android:text="😨"
+        android:textSize="60sp"
+        android:onClick="sixSquared"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sevenscreen"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourscreen"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/sevenscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FB0000"
+        android:onClick="sevenSquared"
+        android:text="😱"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/sixscreen"
+        app:layout_constraintTop_toBottomOf="@+id/fivescreen"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

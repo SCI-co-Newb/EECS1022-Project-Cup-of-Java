@@ -8,12 +8,11 @@
 
 
     <TextView
-        android:id="@+id/title2"
+        android:id="@+id/title6x6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:fontFamily="casual"
-        android:text="@string/test_5x5"
+        android:text="@string/test_7x7"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="48sp"
@@ -25,21 +24,21 @@
 
     <TableLayout
         android:id="@+id/fivescreen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="394dp"
+        android:layout_height="389dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_margin="5dp"
         android:background="#000000"
         android:longClickable="false"
-        app:columnCount="5"
+        app:columnCount="7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title6x6"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.368"
-        app:rowCount="5">
+        app:rowCount="7">
 
         <TableRow>
 
@@ -50,8 +49,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R1C1unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="ButtonStyle,SpeakableTextPresentCheck" />
 
@@ -62,8 +61,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R1C2unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -74,8 +73,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R1C3unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -86,8 +85,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R1C4unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -98,8 +97,32 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R1C5unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR1C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R1C6unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR1C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R1C7unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </TableRow>
@@ -113,8 +136,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R2C1unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
@@ -125,8 +148,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R2C2unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -137,8 +160,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R2C3unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -149,8 +172,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R2C4unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
@@ -161,10 +184,34 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R2C5unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR2C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R2C6unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR2C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R2C7unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </TableRow>
 
         <TableRow>
@@ -176,8 +223,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R3C1unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -188,8 +235,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R3C2unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -200,8 +247,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R3C3unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
@@ -212,8 +259,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R3C4unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -224,8 +271,32 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R3C5unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR3C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R3C6unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR3C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R3C7unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </TableRow>
@@ -239,8 +310,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R4C1unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
@@ -251,8 +322,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R4C2unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -263,8 +334,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R4C3unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -275,8 +346,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R4C4unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -287,10 +358,34 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R4C5unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR4C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R4C6unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR4C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R4C7unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </TableRow>
 
         <TableRow
@@ -304,8 +399,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R5C1unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -316,8 +411,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R5C2unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -328,8 +423,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R5C3unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -340,8 +435,8 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R5C4unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -352,10 +447,212 @@
                 android:layout_margin="3.5dp"
                 android:background="#cad4d1"
                 android:contentDescription="@string/R5C5unknownsquare"
-                android:minWidth="75dp"
-                android:minHeight="75dp"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
                 app:backgroundTint="#cad4d1"
                 tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR5C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R5C6unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR5C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R5C7unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="49dp">
+
+            <Button
+                android:id="@+id/ButtonR6C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R6C1unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR6C2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R6C2unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR6C3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R6C3unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR6C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R6C4unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR6C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R6C5unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR6C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R6C6unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR6C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R6C7unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="49dp">
+
+            <Button
+                android:id="@+id/ButtonR7C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R7C1unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR7C2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R7C2unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR7C3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R7C3unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR7C4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R7C4unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR7C5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R7C5unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="48dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR7C6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R7C6unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/ButtonR7C7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3.5dp"
+                android:background="#cad4d1"
+                android:contentDescription="@string/R7C7unknownsquare"
+                android:minWidth="49dp"
+                android:minHeight="49dp"
+                app:backgroundTint="#cad4d1"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </TableRow>
     </TableLayout>
 
@@ -383,7 +680,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="128dp"
         android:fontFamily="casual"
-        android:text="1/25"
+        android:text="@string/_1_49"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="34sp"
@@ -429,7 +726,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
-        android:text="0/325"
+        android:text="0/1225"
         android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"

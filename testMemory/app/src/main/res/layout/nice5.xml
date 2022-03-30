@@ -3,13 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#cad4d1"
     android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="376dp"
         android:layout_height="733dp"
-        android:onClick="changeScreen"
+        android:onClick="fiveSquared"
         android:text="N\nI\nC\nE!"
         android:textSize="150sp"
         app:layout_constraintBottom_toBottomOf="parent"

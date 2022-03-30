@@ -1,34 +1,67 @@
 <resources>
     <string name="app_name">test(Memory)</string>
-    <string name="affan_gazi_n_sahajdeep_singh_n_oshiya_brahambhatt_n_sourish_dayalan">affan gazi,\nsahajdeep singh,\noshiya brahambhatt,\nsourish dayalan</string>
+    <string name="affan_gazi_n_sahajdeep_singh_n_oshiya_brahambhatt_n_sourish_dayalan">affan gazi,\nsahajdeep singh,\nsourish dayalan,\noshiya brahambhatt</string>
     <string name="test_5x5">test{5x5}</string>
     <string name="R1C1unknownsquare" />
     <string name="R1C2unknownsquare" />
     <string name="R1C3unknownsquare" />
     <string name="R1C4unknownsquare" />
     <string name="R1C5unknownsquare" />
+    <string name="R1C6unknownsquare" />
+    <string name="R1C7unknownsquare" />
     <string name="R2C1unknownsquare" />
     <string name="R2C2unknownsquare" />
     <string name="R2C3unknownsquare" />
     <string name="R2C4unknownsquare" />
     <string name="R2C5unknownsquare" />
+    <string name="R2C6unknownsquare" />
+    <string name="R2C7unknownsquare" />
     <string name="R3C1unknownsquare" />
     <string name="R3C2unknownsquare" />
     <string name="R3C3unknownsquare" />
     <string name="R3C4unknownsquare" />
     <string name="R3C5unknownsquare" />
+    <string name="R3C6unknownsquare" />
+    <string name="R3C7unknownsquare" />
     <string name="R4C1unknownsquare" />
     <string name="R4C2unknownsquare" />
     <string name="R4C3unknownsquare" />
     <string name="R4C4unknownsquare" />
     <string name="R4C5unknownsquare" />
+    <string name="R4C6unknownsquare" />
+    <string name="R4C7unknownsquare" />
     <string name="R5C1unknownsquare" />
     <string name="R5C2unknownsquare" />
     <string name="R5C3unknownsquare" />
     <string name="R5C4unknownsquare" />
     <string name="R5C5unknownsquare" />
+    <string name="R5C6unknownsquare" />
+    <string name="R5C7unknownsquare" />
+    <string name="R6C1unknownsquare" />
+    <string name="R6C2unknownsquare" />
+    <string name="R6C3unknownsquare" />
+    <string name="R6C4unknownsquare" />
+    <string name="R6C5unknownsquare" />
+    <string name="R6C6unknownsquare" />
+    <string name="R6C7unknownsquare" />
+    <string name="R7C1unknownsquare" />
+    <string name="R7C2unknownsquare" />
+    <string name="R7C3unknownsquare" />
+    <string name="R7C4unknownsquare" />
+    <string name="R7C5unknownsquare" />
+    <string name="R7C6unknownsquare" />
+    <string name="R7C7unknownsquare" />
+
+
     <string name="go_back">go back</string>
-    <string name="how_to_play_nin_this_easy_game_a_square_will_flash_for_a_moment_and_you_have_to_tap_on_the_correct_square_nthe_number_of_squares_will_increase_per_level_nyou_only_get_1_chance_ngood_luck">How To Play\nIn this easy game, a square will flash for a moment and you have to tap on the correct square!\nThe number of squares will increase per level!\nYou only get 1 Chance\nGood luck!</string>
+    <string name="how_to_play_nin_this_easy_game_a_square_will_flash_for_a_moment_and_you_have_to_tap_on_the_correct_square_nthe_number_of_squares_will_increase_per_level_nyou_only_get_1_chance_ngood_luck">How To Play:\nIn this easy game, a square will flash for a moment and you have to tap on the correct square!\nThe number of squares will increase per level!\nYou only get 1 Chance\nClick a button below and Good luck!</string>
+    <string name="test_6x6">test{6x6}</string>
+    <string name="test_7x7">test{7x7}</string>
+    <string name="test_4x4">test{4x4}</string>
+    <string name="_1_49">1/49</string>
+    <string name="high_scores">High Scores</string>
+    <string name="main_screen">main screen</string>
+    <string name="squares">Squares:</string>
 
 
 </resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cad4d1">
+
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="casual"
+        android:text="5x5 High Scores!"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/currentscore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/fourhighscore"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:fontFamily="casual"
+        android:onClick="hs4"
+        android:text="4x4"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fivehighscore"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/sevenhighscore"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FB0000"
+        android:fontFamily="casual"
+        android:onClick="hs7"
+        android:text="7x7"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sixhighscore"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/fivehighscore"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="casual"
+        android:text="5x5"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sixhighscore"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fourhighscore"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/sixhighscore"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F4FB00"
+        android:fontFamily="casual"
+        android:onClick="hs6"
+        android:text="6x6"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sevenhighscore"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fivehighscore"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/levellist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="LEVEL"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/high1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highscore"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/datelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="DATE"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/date1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highscore"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/currentscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="casual"
+        android:text="Current Level Achieved:"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/currentlevel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/high1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/high2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/high2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/high3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/high3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/currentscore"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/date2"
+        app:layout_constraintEnd_toStartOf="@+id/high1"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/date3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/currentscore"
+        app:layout_constraintEnd_toStartOf="@+id/high3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/date3"
+        app:layout_constraintEnd_toStartOf="@+id/high2"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/currentlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/gohome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/gohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:onClick="goHome"
+        android:text="Main Screen"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
